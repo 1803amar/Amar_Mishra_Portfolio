@@ -1,7 +1,7 @@
 import "./Project.css";
 import { AiOutlineGithub } from "react-icons/ai";
 import { TbExternalLink } from "react-icons/tb";
-import html5 from "../../assets/JiraIcon.jpg";
+import html5 from "../../assets/jira.svg";
 import css3 from "../../assets/XmindIcon.jpeg";
 import js from "../../assets/icons8-javascript-144.png";
 import penitanteCave from "../../assets/MXplayer.webp";
@@ -9,14 +9,10 @@ import restAssured from "../../assets/RestAssured.png";
 import postman from "../../assets/postman-icon.png";
 import cypress from "../../assets/cypressIcon.jpeg";
 import githubAPI from "../../assets/GithubAPI.png";
-import appium from "../../assets/appiumlogo.jpg";
+import appium from "../../assets/appium-seeklogo.svg";
 import androidStudio from "../../assets/Android-studio-logo-1.png";
-import java from "../../assets/Java-Icon.png";
+import java from "../../assets/5-2-java-png-clipart.png";
 import banjaraRide from "../../assets/BanjaraRidecrop.jpeg";
-
-
-
-
 
 export default function Project() {
   return (
@@ -40,7 +36,10 @@ export default function Project() {
             </div>
             <div className="projectInfo">
               <div className="contentProject">
-                MX Player Manual testing, Tested Mx player with manual testing, Areas of Responsibility : Creating test cases for MX gold, Implemented Manual on test cases •Daily scrum meetings with team, Creating test summary report
+                MX Player Manual testing, Tested Mx player with manual testing,
+                Areas of Responsibility : Creating test cases for MX gold,
+                Implemented Manual on test cases •Daily scrum meetings with
+                team, Creating test summary report
               </div>
               <div className="techStack">
                 <img src={html5} />
@@ -68,8 +67,11 @@ export default function Project() {
             </div>
             <div className="projectInfo">
               <div className="contentProject">
-              Tested all API requests of github with cypress rest assured and postman. Creating repo + autolink, Deleting repo + autolink, Daily scrum meetings with team, Rest Assured and Cypress implemented with framework.
-               {/* Areas of Responsibility: Creating repo + autolink, Deleting repo + autolink, Daily scrum meetings with team, Rest Assured and Cypress implemented with framework. */}
+                Tested all API requests of github with cypress rest assured and
+                postman. Creating repo + autolink, Deleting repo + autolink,
+                Daily scrum meetings with team, Rest Assured and Cypress
+                implemented with framework.
+                {/* Areas of Responsibility: Creating repo + autolink, Deleting repo + autolink, Daily scrum meetings with team, Rest Assured and Cypress implemented with framework. */}
               </div>
               <div className="techStack">
                 <img src={restAssured} />
@@ -104,13 +106,15 @@ export default function Project() {
             </div>
             <div className="projectInfo">
               <div className="contentProject">
-              Tested the banjara ride app on android with Appium.Tap on “Call Us”. Navigate back to the application home page. Download Term&Conditions in pdf from information center. Close the application.
+                Tested the banjara ride app on android with Appium.Tap on “Call
+                Us”. Navigate back to the application home page. Download
+                Term&Conditions in pdf from information center. Close the
+                application.
               </div>
               <div className="techStack">
                 <img src={appium} />
                 <img src={androidStudio} />
                 <img src={java} />
-
               </div>
               <div className="projectLinks">
                 <a

@@ -2,7 +2,7 @@ import React from "react";
 // import emailjs from "@emailjs/browser";
 import "./Contact.css";
 import { MdEmail } from "react-icons/md";
-import { FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
+import { FaMapMarkerAlt, FaPhoneAlt, FaLinkedin } from "react-icons/fa";
 import { useState } from "react";
 import  { useRef } from 'react';
 import emailjs from '@emailjs/browser';
@@ -88,19 +88,20 @@ export default function Contact() {
             </div>
             <div className="addrBtn btnTp">
 
-              <FaMapMarkerAlt color=" rgb(255,180,0)" />
-              <p style={{color:"#fff"}}>LOCATION</p>
-              <span style={{color:"#fff"}}>Dist-Lucknow, Uttar Pradesh 226021 </span>
+              <FaLinkedin color=" rgb(255,180,0)" />
+              <p style={{color:"#fff"}}>LinkedIn</p>
+              <span style={{color:"#fff"}}>Message me on Linkdin</span>
 
               <p className="contactNo" >
-                <a href="https://www.google.com/maps/d/u/0/viewer?mid=1PRNsTVTx_mxFS944bTNCFZldOoI&hl=en&ll=26.923115288890987%2C80.95313045&z=14" target="_blank" >
+                <a href="https://www.linkedin.com/in/amar-mishra-1661611b3/" target="_blank" >
 
-                  View on Google Map
+                Click here for LinkedIn profile
                 </a>
               </p>
             </div>
           </div>
-          <form onSubmit={sendEmail}>
+          {/* <form onSubmit={sendEmail} action="https://formspree.io/f/xpzezbvk" method="POST"> */}
+          <form action="https://formspree.io/f/xqazaqva" method="POST">
             <div className="formInput">
               <div className="leftForm">
                 <div className="rows">

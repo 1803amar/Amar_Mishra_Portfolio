@@ -21,15 +21,15 @@ export default function About() {
                 </div>
                 <div className="profile-content">
                     <div className="profilesummary">
-                    As an aspiring SDET, I am passionate about the intersection of technology and quality assurance. With a solid foundation in software development and a keen eye for detail, I am eager to contribute to the success of a dynamic tech company.
+                    Experienced and enthusiastic QA Tester with a proven track record in software quality assurance. Expertise in test automation frameworks and committed to optimizing software testing processes. Adept at delivering reliable and efficient software solutions. Seeking a challenging role in an innovative organization.
                     </div>
                     <div className='nnn'>
                         <h3>Here are a Few Highlights</h3>
                         <ul className='keyHighlights'>
                             <li>Software Development Engineer in Test</li>
-                            <li>600+ Hours of Manual + Automation</li>
-                            <li>100+ Hours of DSA</li>
-                            <li>5+ Project</li>        
+                            <li>1800+ Hours of Manual Testing + Automation Testing</li>
+                            <li>150+ DSA Problems</li>
+                            <li>10+ Project</li>        
                         </ul>
                     </div>
                     <div className="profile-optins resumeBtn">

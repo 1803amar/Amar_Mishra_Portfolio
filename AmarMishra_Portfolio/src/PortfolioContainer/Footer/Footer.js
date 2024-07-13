@@ -9,7 +9,7 @@ export default function Footer() {
                 <div className="">
                     <div className=" footer-toop">
                         <h3 id='NameFooter'>Amar Mishra</h3>
-                        <p>As an aspiring SDET, I am passionate about the intersection of technology and quality assurance. With a solid foundation in software development and a keen eye for detail, I am eager to contribute to the success of a dynamic tech company.</p>
+                        <p>Experienced and enthusiastic QA Tester with a proven track record in software quality assurance. Expertise in test automation frameworks and committed to optimizing software testing processes. Adept at delivering reliable and efficient software solutions. Seeking a challenging role in an innovative organization.</p>
                         <div className='footer-social'>
                             <a href="https://github.com/1803amar" target="_blank">
                                 <i className="fa fa-github" aria-hidden="true"></i>

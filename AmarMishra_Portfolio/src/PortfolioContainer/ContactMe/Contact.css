@@ -86,6 +86,7 @@
 }
 #inputMessage{
     resize: none;
+    color: white;
 }
 .rows input::placeholder,textarea::placeholder{
     /* color: #b5becb; */

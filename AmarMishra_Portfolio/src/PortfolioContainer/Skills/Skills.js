@@ -19,14 +19,6 @@ export default function Skills() {
       </div>
       <div className="skillsDetails">
         <div className="boxContainer">
-          <div className="skillBox skillbox1">
-            <div className="sillIcon">
-              <ImHtmlFive color="rgb(254,210,4)" />
-            </div>
-            {/* <img styel={{height}} src='https://img.icons8.com/?size=512&id=20909&format=png' alt='HTML'/> */}
-            <div className="skillTitle">HTML</div>
-            {/* <div className='skillInfo'>HTML, CSS, JavaScript</div> */}
-          </div>
           {/* <div className='skillBox skillbox2'>
                     <div className='sillIcon'><GrJava color='white' /></div>
                     <div className='skillTitle'>Web frameworks and Tools</div>
@@ -58,14 +50,6 @@ export default function Skills() {
 
           <div className="skillBox skillbox7">
             <div className="sillIcon">
-              <img src="https://e7.pngegg.com/pngimages/66/60/png-clipart-web-development-cascading-style-sheets-css3-computer-icons-css-miscellaneous-blue-thumbnail.png"></img>
-            </div>
-            <div className="skillTitle">CSS</div>
-            {/* <div className='skillInfo'>300+ Hours of DSA</div>  */}
-          </div>
-
-          <div className="skillBox skillbox7">
-            <div className="sillIcon">
               <img src="https://e7.pngegg.com/pngimages/917/651/png-clipart-apache-maven-feathers-tech-companies.png"></img>
             </div>
             <div className="skillTitle">Maven</div>
@@ -80,7 +64,6 @@ export default function Skills() {
             {/* <div className='skillInfo'>1200+ Hours of coding</div>  */}
           </div>
 
-          
           <div className="skillBox skillbox8">
             <div className="sillIcon">
               <img src="https://www.simplilearn.com/ice9/tools_covered/junit.png"></img>
@@ -115,7 +98,7 @@ export default function Skills() {
 
           <div className="skillBox skillbox9">
             <div className="sillIcon">
-              <img src="https://img.uxwing.com/wp-content/themes/uxwing/download/brands-social-media/postman-icon.svg"></img>
+              <img src="https://camo.githubusercontent.com/a13ca5b988ada41839ebe4f88455e63419a1b56fcb5eda207794cd1649a61d2c/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667"></img>
             </div>
             <div className="skillTitle">Postman</div>
             {/* <div className='skillInfo'>Data Base</div>  */}
@@ -155,7 +138,7 @@ export default function Skills() {
 
           <div className="skillBox skillbox9">
             <div className="sillIcon">
-              <img src="https://camo.githubusercontent.com/9f6fbaa3154800eef23c4dc7ed718f911deb50e0d5f58f9226d7dc278d901973/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f61746c61737369616e5f6a6972612f61746c61737369616e5f6a6972612d69636f6e2e737667"></img>
+              <img src="https://static-00.iconduck.com/assets.00/jira-icon-512x512-kkop6eik.png"></img>
             </div>
             <div className="skillTitle">Jira</div>
             {/* <div className='skillInfo'>Data Base</div>  */}
@@ -163,10 +146,27 @@ export default function Skills() {
 
           <div className="skillBox skillbox9">
             <div className="sillIcon">
-              <img src="https://camo.githubusercontent.com/4253eb6921d60a216772940978dea3a0cf2113f2f29b5545720d3b5b6960e467/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6d6f6368616a732f6d6f6368616a732d69636f6e2e737667"></img>
+              <img src="https://camo.githubusercontent.com/1da985bb9c759cb27cc6ba6ef9a05f35e27c8c5b33c03de1a4bafede6d6e7b23/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6d6f6368616a732f6d6f6368616a732d69636f6e2e737667"></img>
             </div>
             <div className="skillTitle">Mocha</div>
             {/* <div className='skillInfo'>Data Base</div>  */}
+          </div>
+
+          <div className="skillBox skillbox1">
+            <div className="sillIcon">
+              <ImHtmlFive color="rgb(254,210,4)" />
+            </div>
+            {/* <img styel={{height}} src='https://img.icons8.com/?size=512&id=20909&format=png' alt='HTML'/> */}
+            <div className="skillTitle">HTML</div>
+            {/* <div className='skillInfo'>HTML, CSS, JavaScript</div> */}
+          </div>
+
+          <div className="skillBox skillbox7">
+            <div className="sillIcon">
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"></img>
+            </div>
+            <div className="skillTitle">CSS</div>
+            {/* <div className='skillInfo'>300+ Hours of DSA</div>  */}
           </div>
         </div>
       </div>
